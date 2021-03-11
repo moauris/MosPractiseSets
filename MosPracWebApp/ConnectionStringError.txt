@@ -1,0 +1,5 @@
+                Debug.Print($"[DEBUG MESSAGE] : Connecting to SQL Server with String:");
+                Debug.Print($"[DEBUG MESSAGE] : {configuration["ConnectionStrings:QuestionConnection"]}");
+                System.Environment.Exit(0);
+[DEBUG MESSAGE] : Connecting to SQL Server with String:
+[DEBUG MESSAGE] : Server={localdb}\MSSQLLocalDB;Database=QuestionDB;MultipleActiveResultSets=true
